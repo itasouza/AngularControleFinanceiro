@@ -67,7 +67,7 @@ namespace DevIO.App
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            }); 
 
             app.UseSpa(spa =>
             {
